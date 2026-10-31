@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run logistics forecasting demo",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/logistics_forecasting.py",
+      "console": "integratedTerminal",
+      "args": ["--rows", "1200", "--seed", "42", "--output-dir", "outputs"]
+    }
+  ]
+}
